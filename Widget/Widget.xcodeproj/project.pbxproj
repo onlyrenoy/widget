@@ -16,7 +16,35 @@
 		A503BA0D219596C5008A3E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A503BA0B219596C5008A3E1F /* LaunchScreen.storyboard */; };
 		A503BA1821959778008A3E1F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = A503BA1721959778008A3E1F /* Base.swift */; };
 		A51EDDC32195DA9300B8AB5A /* mockJSON.mock in Resources */ = {isa = PBXBuildFile; fileRef = A51EDDC22195DA9200B8AB5A /* mockJSON.mock */; };
+		A51EDDCA2195DB6E00B8AB5A /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51EDDC92195DB6E00B8AB5A /* NotificationCenter.framework */; };
+		A51EDDCD2195DB6E00B8AB5A /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51EDDCC2195DB6E00B8AB5A /* TodayViewController.swift */; };
+		A51EDDD02195DB6E00B8AB5A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51EDDCE2195DB6E00B8AB5A /* MainInterface.storyboard */; };
+		A51EDDD42195DB6E00B8AB5A /* widTest.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A51EDDC82195DB6E00B8AB5A /* widTest.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A51EDDD22195DB6E00B8AB5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A503B9F4219596C3008A3E1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A51EDDC72195DB6E00B8AB5A;
+			remoteInfo = widTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A51EDDD82195DB6E00B8AB5A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A51EDDD42195DB6E00B8AB5A /* widTest.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		125C8E91B1A06D264891216E /* Pods-Widget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Widget.release.xcconfig"; path = "Pods/Target Support Files/Pods-Widget/Pods-Widget.release.xcconfig"; sourceTree = "<group>"; };
@@ -32,6 +60,11 @@
 		A503BA0E219596C5008A3E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A503BA1721959778008A3E1F /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		A51EDDC22195DA9200B8AB5A /* mockJSON.mock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mockJSON.mock; path = ../../../../../Desktop/WidgetProject/WidgetProject/Mock/mockJSON.mock; sourceTree = "<group>"; };
+		A51EDDC82195DB6E00B8AB5A /* widTest.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widTest.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51EDDC92195DB6E00B8AB5A /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		A51EDDCC2195DB6E00B8AB5A /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		A51EDDCF2195DB6E00B8AB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A51EDDD12195DB6E00B8AB5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +73,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E3CBF0D0811E6C6C09D400A /* Pods_Widget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51EDDC52195DB6E00B8AB5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51EDDCA2195DB6E00B8AB5A /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				9EC03EF55D7D9BAEADE082B4 /* Pods_Widget.framework */,
+				A51EDDC92195DB6E00B8AB5A /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -67,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				A503B9FE219596C3008A3E1F /* Widget */,
+				A51EDDCB2195DB6E00B8AB5A /* widTest */,
 				A503B9FD219596C3008A3E1F /* Products */,
 				508C1026A3CDBBA2DD88D85E /* Pods */,
 				65171227AA7BBC0061425A32 /* Frameworks */,
@@ -77,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				A503B9FC219596C3008A3E1F /* Widget.app */,
+				A51EDDC82195DB6E00B8AB5A /* widTest.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,6 +173,16 @@
 			path = Mock;
 			sourceTree = "<group>";
 		};
+		A51EDDCB2195DB6E00B8AB5A /* widTest */ = {
+			isa = PBXGroup;
+			children = (
+				A51EDDCC2195DB6E00B8AB5A /* TodayViewController.swift */,
+				A51EDDCE2195DB6E00B8AB5A /* MainInterface.storyboard */,
+				A51EDDD12195DB6E00B8AB5A /* Info.plist */,
+			);
+			path = widTest;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,15 +195,34 @@
 				A503B9F9219596C3008A3E1F /* Frameworks */,
 				A503B9FA219596C3008A3E1F /* Resources */,
 				FCD75DD37416C3F0404DA754 /* [CP] Embed Pods Frameworks */,
+				A51EDDD82195DB6E00B8AB5A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A51EDDD32195DB6E00B8AB5A /* PBXTargetDependency */,
 			);
 			name = Widget;
 			productName = Widget;
 			productReference = A503B9FC219596C3008A3E1F /* Widget.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A51EDDC72195DB6E00B8AB5A /* widTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51EDDD52195DB6E00B8AB5A /* Build configuration list for PBXNativeTarget "widTest" */;
+			buildPhases = (
+				A51EDDC42195DB6E00B8AB5A /* Sources */,
+				A51EDDC52195DB6E00B8AB5A /* Frameworks */,
+				A51EDDC62195DB6E00B8AB5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widTest;
+			productName = widTest;
+			productReference = A51EDDC82195DB6E00B8AB5A /* widTest.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -162,6 +235,9 @@
 				ORGANIZATIONNAME = "Renoy Rahman Chowdhury";
 				TargetAttributes = {
 					A503B9FB219596C3008A3E1F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					A51EDDC72195DB6E00B8AB5A = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
@@ -180,6 +256,7 @@
 			projectRoot = "";
 			targets = (
 				A503B9FB219596C3008A3E1F /* Widget */,
+				A51EDDC72195DB6E00B8AB5A /* widTest */,
 			);
 		};
 /* End PBXProject section */
@@ -193,6 +270,14 @@
 				A503BA0D219596C5008A3E1F /* LaunchScreen.storyboard in Resources */,
 				A503BA0A219596C5008A3E1F /* Assets.xcassets in Resources */,
 				A503BA05219596C3008A3E1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51EDDC62195DB6E00B8AB5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51EDDD02195DB6E00B8AB5A /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +342,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A51EDDC42195DB6E00B8AB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51EDDCD2195DB6E00B8AB5A /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A51EDDD32195DB6E00B8AB5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A51EDDC72195DB6E00B8AB5A /* widTest */;
+			targetProxy = A51EDDD22195DB6E00B8AB5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A503BA03219596C3008A3E1F /* Main.storyboard */ = {
@@ -274,6 +375,14 @@
 				A503BA0C219596C5008A3E1F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A51EDDCE2195DB6E00B8AB5A /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A51EDDCF2195DB6E00B8AB5A /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -399,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33FA22852C4683DF57AA0F21 /* Pods-Widget.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K87CQB5KVW;
@@ -418,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 125C8E91B1A06D264891216E /* Pods-Widget.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K87CQB5KVW;
@@ -428,6 +539,44 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.renoy.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A51EDDD62195DB6E00B8AB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K87CQB5KVW;
+				INFOPLIST_FILE = widTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.renoy.Widget.widTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A51EDDD72195DB6E00B8AB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K87CQB5KVW;
+				INFOPLIST_FILE = widTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.renoy.Widget.widTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,6 +599,15 @@
 			buildConfigurations = (
 				A503BA12219596C5008A3E1F /* Debug */,
 				A503BA13219596C5008A3E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51EDDD52195DB6E00B8AB5A /* Build configuration list for PBXNativeTarget "widTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51EDDD62195DB6E00B8AB5A /* Debug */,
+				A51EDDD72195DB6E00B8AB5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
