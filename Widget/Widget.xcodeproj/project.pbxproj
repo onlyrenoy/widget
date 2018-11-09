@@ -15,7 +15,7 @@
 		A503BA0A219596C5008A3E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A503BA09219596C5008A3E1F /* Assets.xcassets */; };
 		A503BA0D219596C5008A3E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A503BA0B219596C5008A3E1F /* LaunchScreen.storyboard */; };
 		A503BA1821959778008A3E1F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = A503BA1721959778008A3E1F /* Base.swift */; };
-		A503BA1B219597B4008A3E1F /* mockJSON.mock in Resources */ = {isa = PBXBuildFile; fileRef = A503BA1A219597B4008A3E1F /* mockJSON.mock */; };
+		A51EDDC32195DA9300B8AB5A /* mockJSON.mock in Resources */ = {isa = PBXBuildFile; fileRef = A51EDDC22195DA9200B8AB5A /* mockJSON.mock */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		A503BA0C219596C5008A3E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A503BA0E219596C5008A3E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A503BA1721959778008A3E1F /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
-		A503BA1A219597B4008A3E1F /* mockJSON.mock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mockJSON.mock; path = ../../../WidgetProject/WidgetProject/Mock/mockJSON.mock; sourceTree = "<group>"; };
+		A51EDDC22195DA9200B8AB5A /* mockJSON.mock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mockJSON.mock; path = ../../../../../Desktop/WidgetProject/WidgetProject/Mock/mockJSON.mock; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +124,7 @@
 		A503BA19219597A8008A3E1F /* Mock */ = {
 			isa = PBXGroup;
 			children = (
-				A503BA1A219597B4008A3E1F /* mockJSON.mock */,
+				A51EDDC22195DA9200B8AB5A /* mockJSON.mock */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -189,8 +189,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51EDDC32195DA9300B8AB5A /* mockJSON.mock in Resources */,
 				A503BA0D219596C5008A3E1F /* LaunchScreen.storyboard in Resources */,
-				A503BA1B219597B4008A3E1F /* mockJSON.mock in Resources */,
 				A503BA0A219596C5008A3E1F /* Assets.xcassets in Resources */,
 				A503BA05219596C3008A3E1F /* Main.storyboard in Resources */,
 			);
